@@ -38,11 +38,11 @@ Download the generic installer from their website [here](https://fabricmc.net/us
 * **On Linux/Mac**: You should download the the **universal JAR installer**.
 * **NOTE**: The JAR installer can be used on Windows as well!
 
-![Fabric Download](./images/download_client01.png)  
+![Fabric Download](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/download_client01.png)  
 
 On Windows, your file explorer should look like this, with a file named something like `fabric-installer-{VERSION}.jar`.
 
-![Fabric Windows Explorer View Installer](./images/win_explorer_installer.png)
+![Fabric Windows Explorer View Installer](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/win_explorer_installer.png)
 
 ### Server Download
 For the server, you can either download the generic installer above, or you can download the server launcher JAR directly which will make things quicker.
@@ -55,7 +55,7 @@ We will be downloading the server launcher JAR directly:
     - **Fabric Loader Version** (2): This is the version of the Fabric Loader that will be installed. In most cases, you can leave this as default (latest).
     - **Installer Version** (2): This is the version of the installer that will be downloaded. In most cases, you can leave this as default (latest).
 4. Click the **Executable Server (.jar)** button (3) to download the server launcher JAR file.
-![Fabric Server Download](./images/download_server01.png)
+![Fabric Server Download](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/download_server01.png)
 
 Now save the JAR file to the location where you want to run your server. For example, you may want to create a new folder called `fabric-server` and save the JAR file there.
 
@@ -73,7 +73,7 @@ Installing the Fabric client or server is a straightforward process that can be 
 5. Ensure the **Create profile** option is checked if you want the installer to create a new profile for you in the Minecraft Launcher.
     - This is recommended to keep things organized, but you can uncheck it if you want to manually create a profile later.
 6. Click the **Install** button (3) to start the installation process.
-![Fabric Client Installer Setup](./images/gui_client_config.png)
+![Fabric Client Installer Setup](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/gui_client_config.png)
 
 #### Through the Command Line (Linux/PowerShell)
 Installing the client through the command line is a bit more complex, but may be preferred or necessary for some users. Below are the instructions for installing the Fabric client using the command line.
@@ -152,7 +152,7 @@ On Linux, here's an example of how to run the installer with specific flags:
 java -jar ./fabric-installer-1.1.1.jar server -dir ./fabric_test01 -mcversion 26.1.2 -downloadMinecraft
 ```
 
-![Fabric Server Installer CLI Example](./images/server_linux_install.png)
+![Fabric Server Installer CLI Example](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/server_linux_install.png)
 
 ### Running
 You can now start the client or server with Fabric installed. The process for running the client and server is different, so we'll go over both separately.
@@ -166,7 +166,7 @@ After loading into a new world, you can confirm if Fabric is installed by pressi
 
 For example, it may say something like `Minecraft 26.1.2 (fabric-loader-{version}/fabric)`.
 
-![Fabric Installed](./images/client_confirm.png)
+![Fabric Installed](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/client_confirm.png)
 
 #### Server
 To make things easier, we're going to be making a simple wrapper script that will run the server and automatically restart it if it crashes or stops. This is especially useful for servers that are running mods, as they can be more prone to crashing.
@@ -214,11 +214,11 @@ $env:JAR_FILE = "fabric-server-launch.jar"
 .\start-server.bat
 ```
 
-![Windows Powershell Start Command](./images/server_win_start.png)
+![Windows Powershell Start Command](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/server_win_start.png)
 
 Here's an example of what the server console (GUI) will look like when running with the wrapper script on Windows:
 
-![Windows Server Started GUI](./images/gui_server_started.png)
+![Windows Server Started GUI](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/gui_server_started.png)
 
 ##### Linux Wrapper Script
 On Linux, we'll be creating a Bash script called [`start-server.sh`](./scripts/start-server.sh) with the following contents:
@@ -252,7 +252,7 @@ export JAR_FILE="fabric-server-launch.jar"
 ./start-server.sh
 ```
 
-![Linux Terminal Start Command](./images/server_linux_start.png)
+![Linux Terminal Start Command](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/raw/main/images/server_linux_start.png)
 
 After creating the script using a command line `nano start-server.sh` or through a text editor, ensure to give the script user execute permissions with `chmod u+x start-server.sh` before running it.
 
@@ -289,5 +289,7 @@ screen -r mc-fabric
 Fabric is a fantastic modding platform that has powered the Minecraft modding scene for many years. Whether you're looking to install it for your client or set up a modded server, the installation process is straightforward and can be done through either a GUI installer or the command line. With Fabric, you can enjoy a wide variety of mods and custom content in Minecraft.
 
 If you have any questions or are looking for a modding community to be a part of, consider joining our [Discord server](https://discord.moddingcommunity.com)!
+
+Guides we create are always open to edits and improvements, so if you have any suggestions or notice any issues, feel free to contribute by creating a [pull request](https://github.com/modcommunity/-how-to-download-and-install-fabric-on-minecraft-client-and-server/pulls) on our GitHub repository!
 
 Happy modding!
