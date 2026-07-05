@@ -1,6 +1,6 @@
 A guide on how to download, install, and run [Fabric](https://fabricmc.net/) for both the [Minecraft](https://www.minecraft.net/) client and server. This guide includes instructions for using the GUI installer and command-line method.
 
-[**View Guide On TMC (Recommended Due To Better Formatting)**](https://blog.moddingcommunity.com/how-to-download-install-fabric-for-minecraft-client-server/)
+[**View Guide On TMC (Recommended Due To Better Formatting)**](https://moddingcommunity.com/blog/how-to-download-install-fabric-for-minecraft-client-server/)
 
 Fabric is a lightweight and modular modding platform for Minecraft that allows players to easily install and manage mods. It is designed to be fast, efficient, and compatible with a wide range of mods, making it a popular choice among Minecraft modders and players alike.
 
